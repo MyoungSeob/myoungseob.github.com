@@ -58,3 +58,7 @@ function solution(progresses, speeds) {
 
   return answer;
 }
+
+
+//중요한 점
+//1. shift()를 통해 먼저들어온 값(queue)를 처리할 수 있음

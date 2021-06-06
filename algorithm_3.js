@@ -43,4 +43,8 @@ function solution(n) {
 
   return answer;
 }
-console.log(solution(78));
+
+
+//중요한 점
+// 1. toString(2)로 2진법을 이용할 수 있음
+// 2. split("")를 통해 문자열을 배열화 할 수 있음
