@@ -25,3 +25,6 @@ function solution(n, a, b){
     }        
     return round;
 }
+
+// 중요한 점
+// 1. Math.ceil 올림시 사용하는 함수
