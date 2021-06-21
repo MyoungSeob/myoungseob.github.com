@@ -108,46 +108,6 @@ function solution(n, words) {
             answer.push(0);
         }
     }
-    
-
-    // let num = 0;
-    // for(let i = 1; i <n+1; i ++){
-    //     let temp = Array();
-    //     graph.push(temp)
-    // }
-    // else{
-    //     while(len > 0){
-    //         if(trun = 1){
-    //             if(n - 1 > num){
-    //                 graph[num].push(words.shift());
-    //                 count++;
-    //                 num ++;
-    //                 len --;
-    //             } else if(n - 1 === num){
-    //                 graph[num].push(words.shift());
-    //                 num = 0;
-    //                 len --;
-    //                 trun++;
-    //             }
-    //         }else if(trun > 1){
-                
-    //             if(n - 1> num){
-    //                 graph[num].push(words.shift());
-    //                 count++;
-    //                 num ++;
-    //                 len --;
-    //             } else if(n - 1 === num){
-    //                 graph[num].push(words.shift());
-    //                 num = 0;
-    //                 len --;
-    //                 trun++;
-    //             }
-    //         }
-            
-    //     }
-    // }
-    
-
     return answer;
 }
 
