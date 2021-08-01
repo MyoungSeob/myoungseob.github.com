@@ -29,7 +29,6 @@ const getCombinations = function(arr, selectNumber){
         const combinations = getCombinations(rest, selectNumber -1);
         const attached = combinations.map((combination) => [fixed, ...combination].join(''));
         results.push(...attached);
-
     });
     return results
 }
@@ -59,3 +58,5 @@ function solution(numbers) {
     // 중복된 값을 제거하기 위해 new Set함수 사용
     return finalAnswer.length;
 }
+
+console.log(solution("119"))
