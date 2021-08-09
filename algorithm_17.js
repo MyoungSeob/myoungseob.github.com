@@ -1,5 +1,4 @@
 function solution(s) {
-    var answer = 0;
     if(s.length === 1) return 1;
     let tmp = [];
     for(let i = 1; i < parseInt(s.length / 2); i++){

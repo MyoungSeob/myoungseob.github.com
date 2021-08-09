@@ -21,7 +21,7 @@ function solution(array, commands) {
 function solution(array, commands) {
     var answer = [];
     var count = 0;
-    while (count < commands.length) {
+    while (count < commands.length) {ㅂ
       let one = commands[count][0];
       let two = commands[count][1];
       let thr = commands[count][2];
