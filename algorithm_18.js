@@ -1,3 +1,6 @@
+// https://programmers.co.kr/learn/courses/30/lessons/83201?language=javascript
+// 상호평가
+
 function solution(scores) {
   var answer = "";
   let myScore = [];
