@@ -40,3 +40,5 @@ function solution(s) {
     .replace(/nine/g, 9);
   console.log(s);
 }
+
+solution("one4seveneight");
